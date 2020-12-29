@@ -14,7 +14,7 @@ Celestial bodies, solar system, rocket on Unity3D
 
 Есть возможность построения орбит относительно других планет.
 
-![alt text](Images/orbits_2.png)|
+![alt text](Images/orbits_3.png)|
 
 Расположить ракету можно в редакторе Unity3D, для этого нужно выбрать "RocketMiniature" и просто «клинкнуть» на планету
 
