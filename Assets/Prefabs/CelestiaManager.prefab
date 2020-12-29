@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5653704870631312210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5653704870631312208}
+  - component: {fileID: 5653704870631312211}
+  - component: {fileID: 5653704870631312209}
+  - component: {fileID: 5653704870631312215}
+  m_Layer: 0
+  m_Name: CelestiaManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5653704870631312208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653704870631312210}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5653704872136597590}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5653704870631312211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653704870631312210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772d13ed01beb1d499fe5dda7f524934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rocket: {fileID: 0}
+  celestialBodies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &5653704870631312209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653704870631312210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49b0a767eb0f52946810b489ebe2342a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawOrbits: 1
+  lineRendererMaterial: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  visualizeBuild: 1
+  lineWidth: 3
+  simplifyLine: 0.25
+  numSteps: 30000
+  timeStep: 1000
+  usePhysicsTimeStep: 0
+  relativeToBody: 0
+  centralBody: {fileID: 0}
+  distances:
+  - planetName: Pluto
+    maxDistance: 5906.399999998091
+    maxDistanceAU: 0.00000003948184716410743
+    minDistance: 5906.382504128269
+    minDistanceAU: 0.000000039481730211436036
+  - planetName: Neptune
+    maxDistance: 4499.999999996733
+    maxDistanceAU: 0.000000030080643410268844
+    minDistance: 4499.987943649819
+    minDistanceAU: 0.00000003008056281856387
+  - planetName: Uranus
+    maxDistance: 2900.1225275099496
+    maxDistanceAU: 0.00000001938612257692838
+    minDistance: 2899.999999887307
+    minDistanceAU: 0.000000019385303530322906
+  - planetName: Saturn
+    maxDistance: 1433.6265671399565
+    maxDistanceAU: 0.000000009583202122145817
+    minDistance: 1432.9999996271715
+    minDistanceAU: 0.000000009579013776829249
+  - planetName: Jupiter
+    maxDistance: 750.3375296179147
+    maxDistanceAU: 0.000000005015696814621092
+    minDistance: 740.9999996676205
+    minDistanceAU: 0.000000004953279279339379
+  - planetName: Mars
+    maxDistance: 295.29700913850235
+    maxDistanceAU: 0.000000001973938673782364
+    minDistance: 248.99999723954443
+    minDistanceAU: 0.0000000016644622502502442
+  - planetName: Moon
+    maxDistance: 152.6619950164633
+    maxDistanceAU: 0.0000000010204824520875122
+    minDistance: 149.17999249958518
+    minDistanceAU: 0.00000000099720670185108
+  - planetName: Earth
+    maxDistance: 152.33620006020246
+    maxDistanceAU: 0.0000000010183046472199226
+    minDistance: 149.4999491687307
+    minDistanceAU: 0.0000000009993454801780378
+  - planetName: Venus
+    maxDistance: 109.99847517411808
+    maxDistanceAU: 0.0000000007352944238640795
+    minDistance: 108.1998326200255
+    minDistanceAU: 0.0000000007232712404658054
+  - planetName: Mercury
+    maxDistance: 58.008834514649934
+    maxDistanceAU: 0.0000000003877651257070549
+    minDistance: 56.62614343655774
+    minDistanceAU: 0.00000000037852240631445897
+  - planetName: Sun
+    maxDistance: 0.11335975918329422
+    maxDistanceAU: 0.0000000000007577632206820216
+    minDistance: 0.00000000030950203717185807
+    minDistanceAU: 2.068893425538932e-21
+  rocket: {fileID: 0}
+  rocketLine: {fileID: 5653704872136597591}
+  visualScale: 167
+  maxScale: 835
+--- !u!114 &5653704870631312215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653704870631312210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce92d0932f5aa4a42abd485caffe754b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updatesPerSecond: 60
+--- !u!1 &5653704872136597585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5653704872136597590}
+  - component: {fileID: 5653704872136597591}
+  m_Layer: 11
+  m_Name: RocketLine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5653704872136597590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653704872136597585}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5653704870631312208}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!120 &5653704872136597591
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5653704872136597585}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 0.030462425
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 0, b: 0, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
