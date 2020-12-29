@@ -3,8 +3,8 @@ Celestial bodies, solar system, rocket on Unity3D
 
 ## Celestial Bodies ##
 
-При помощи «инспектора» можно задать исходные данные планеты. 
-После данных необходимо нажать кнопку «Update Planet» и для планеты автоматически зададутся настройки, 
+При помощи "инспектора" можно задать исходные данные планеты. 
+После данных необходимо нажать кнопку "Update Planet" и для планеты автоматически зададутся настройки, 
 необходимые связи и элементы интерфейса.
 
 | ![alt text](Images/inspector_1.png) | ![alt text](Images/inspector_2.png) |
@@ -33,5 +33,4 @@ Celestial bodies, solar system, rocket on Unity3D
 * H показать графики
 
 ## SPECIAL THANKS TO ##
-
-  [XCharts](https://github.com/monitor1394/unity-ugui-XCharts)</br>
+[XCharts](https://github.com/monitor1394/unity-ugui-XCharts)</br>
